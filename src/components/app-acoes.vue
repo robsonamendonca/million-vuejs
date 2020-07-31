@@ -51,26 +51,16 @@
         <table class="table table-bordered table-sm">
             <thead>
               <tr>
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Email</th>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Preço</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>John</td>
-                <td>Doe</td>
-                <td>john@example.com</td>
-              </tr>
-              <tr>
-                <td>Mary</td>
-                <td>Moe</td>
-                <td>mary@example.com</td>
-              </tr>
-              <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
+              <tr v-for="acao in acoes" v-bind:key="acao.id"> 
+                <td>{{acao.id}}</td>
+                <td>{{acao.nome}}</td>
+                <td>R$ {{acao.preco}}</td>
               </tr>
             </tbody>
           </table>      
@@ -80,3 +70,26 @@
   </div>
 </main> 
 </template>
+
+<script>
+//import axios from 'axios';
+export default {
+  name: "Acoes",
+  data: () => {
+    return{
+        robson: "Mandou muito bem",
+        acoes :[
+          {id: 1, nome: "A - Itausa", preco: 3.4},
+          {id: 2, nome: "B - Itausa", preco: 2.4},
+          {id: 3, nome: "C - Itausa", preco: 5.4},
+
+          ]
+    }     
+  },
+  methods: {
+    lista(){
+     // axios.get(``)
+    }
+  }
+}
+</script>
