@@ -1,0 +1,15 @@
+<svg width="612" height="612" xmlns="http://www.w3.org/2000/svg" class="d-block">
+ <title>Bootstrap</title>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m510,8a94.3,94.3 0 0 1 94,94l0,408a94.3,94.3 0 0 1 -94,94l-408,0a94.3,94.3 0 0 1 -94,-94l0,-408a94.3,94.3 0 0 1 94,-94l408,0m0,-8l-408,0c-56.1,0 -102,45.9 -102,102l0,408c0,56.1 45.9,102 102,102l408,0c56.1,0 102,-45.9 102,-102l0,-408c0,-56.1 -45.9,-102 -102,-102z" fill="currentColor"/>
+  <path id="svg_4" d="m353.5,263.4375l231.5,-130.4375" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="null" fill="currentColor"/>
+  <text stroke="null" transform="matrix(19.807859420776367,0,0,7.800468921661377,-8338.640797883272,-2567.9208192154765) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_9" y="372.521281" x="429.855688" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000"/>
+  <text font-weight="bold" stroke="null" transform="matrix(12.755370201865619,0,0,9.990746580834868,-2573.985680992134,-3306.180713368346) " xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="47" id="svg_10" y="376.58761" x="206.498698" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">M</text>
+ </g>
+</svg>
